@@ -1,0 +1,71 @@
+.container {
+  background-color: rgb(255, 251, 255);
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+.list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 10px;
+  padding: 50px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.formContainer button {
+  padding: 15px 20px;
+  width: 50%;
+  background-color: #cdcdcd;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.formContainer input {
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 50%;
+}
+#contacts {
+  margin-top: 50px;
+}
+#contacts td,
+#contacts th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#contacts tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#contacts tr:hover {
+  background-color: #ddd;
+}
+
+#contacts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(24, 49, 83);
+  color: white;
+}
+.delete {
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
